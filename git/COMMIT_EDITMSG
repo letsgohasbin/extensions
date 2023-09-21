@@ -1,0 +1,3 @@
+Revert "Update SMTP connection URI validation regex (#942)"
+
+This reverts commit 380e969d0b6baab36adcb20eeaacf1f315d6f189.

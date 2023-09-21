@@ -1,0 +1,142 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[submodule]
+	active = .
+[remote "origin"]
+	url = https://github.com/Bariscankibarcekici/extensions.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "next"]
+	remote = origin
+	merge = refs/heads/next
+[remote "upstream"]
+	url = https://github.com/firebase/extensions.git
+	fetch = +refs/heads/*:refs/remotes/upstream/*
+[lfs]
+	repositoryformatversion = 0
+[remote "github-desktop-yamankatby"]
+	url = https://github.com/yamankatby/extensions.git
+	fetch = +refs/heads/*:refs/remotes/github-desktop-yamankatby/*
+[branch "pr/1143"]
+	remote = github-desktop-yamankatby
+	merge = refs/heads/languages-field
+[branch "huangjeff5-update-test-workflow"]
+	remote = upstream
+	merge = refs/heads/huangjeff5-update-test-workflow
+[remote "github-desktop-thatfiredev"]
+	url = https://github.com/thatfiredev/extensions.git
+	fetch = +refs/heads/*:refs/remotes/github-desktop-thatfiredev/*
+[branch "pr/720"]
+	remote = github-desktop-thatfiredev
+	merge = refs/heads/rpf-add-cf-locations
+[branch "@invertase/delete-user-events-pubsub"]
+	remote = upstream
+	merge = refs/heads/@invertase/delete-user-events-pubsub
+[branch "dependabot/npm_and_yarn/firestore-bigquery-export/scripts/import/ansi-regex-3.0.1"]
+	remote = upstream
+	merge = refs/heads/dependabot/npm_and_yarn/firestore-bigquery-export/scripts/import/ansi-regex-3.0.1
+[remote "github-desktop-sophie4869"]
+	url = https://github.com/sophie4869/extensions.git
+	fetch = +refs/heads/*:refs/remotes/github-desktop-sophie4869/*
+[branch "pr/703"]
+	remote = github-desktop-sophie4869
+	merge = refs/heads/sophie-next
+[branch "firestore-auth-claims"]
+	remote = upstream
+	merge = refs/heads/firestore-auth-claims
+[branch "dependabot/npm_and_yarn/firestore-bigquery-export/functions/protobufjs-6.11.3"]
+	remote = upstream
+	merge = refs/heads/dependabot/npm_and_yarn/firestore-bigquery-export/functions/protobufjs-6.11.3
+[branch "master"]
+	remote = upstream
+	merge = refs/heads/master
+[branch "pr/934"]
+	remote = github-desktop-yamankatby
+	merge = refs/heads/naming-convention
+[branch "@invertase/staging"]
+	remote = upstream
+	merge = refs/heads/@invertase/staging
+[branch "@invertase/rtdb-emulator"]
+	remote = upstream
+	merge = refs/heads/@invertase/rtdb-emulator
+[user]
+	name = Bariscankibarcekici
+	email = 106708281+Bariscankibarcekici@users.noreply.github.com
+[branch "wyszynski/bq-import-fix"]
+	remote = upstream
+	merge = refs/heads/wyszynski/bq-import-fix
+[branch "jh-fix-validate"]
+	remote = origin
+	merge = refs/heads/jh-fix-validate
+[gc]
+	reflogExpire = never
+[branch "@invertase/added-bq-backup-collection"]
+	remote = origin
+	merge = refs/heads/@invertase/added-bq-backup-collection
+[branch "@invertase/fix-race-condition-initial-document-sync"]
+	remote = origin
+	merge = refs/heads/@invertase/fix-race-condition-initial-document-sync
+[remote "github-desktop-posiek07"]
+	url = https://github.com/posiek07/extensions.git
+	fetch = +refs/heads/*:refs/remotes/github-desktop-posiek07/*
+[branch "pr/877"]
+	remote = github-desktop-posiek07
+	merge = refs/heads/@invertase/storage-resize-image-add-size-to-metadata
+[branch "ci-node14"]
+	remote = origin
+	merge = refs/heads/ci-node14
+[remote "github-desktop-selcukhaltas"]
+	url = https://github.com/selcukhaltas/extensions.git
+	fetch = +refs/heads/*:refs/remotes/github-desktop-selcukhaltas/*
+[branch "pr/1177"]
+	remote = github-desktop-selcukhaltas
+	merge = refs/heads/next
+[branch "pr/813"]
+	remote = github-desktop-posiek07
+	merge = refs/heads/@invertase/firestore-bigquery-export-add-prepare-script
+[branch "@invertase/encode-email-passwords"]
+	remote = upstream
+	merge = refs/heads/@invertase/encode-email-passwords
+[branch "@invertase/events-emulator-wip"]
+	remote = upstream
+	merge = refs/heads/@invertase/events-emulator-wip
+[branch "pr/1174"]
+	remote = github-desktop-selcukhaltas
+	merge = refs/heads/revert-1164-kc-bq-docs
+[remote "github-desktop-CommanderRoot"]
+	url = https://github.com/CommanderRoot/extensions.git
+	fetch = +refs/heads/*:refs/remotes/github-desktop-CommanderRoot/*
+[branch "pr/928"]
+	remote = github-desktop-CommanderRoot
+	merge = refs/heads/refactor/rm-deprecated-substr
+[branch "dependabot/npm_and_yarn/firestore-bigquery-export/scripts/gen-schema-view/minimist-1.2.6"]
+	remote = upstream
+	merge = refs/heads/dependabot/npm_and_yarn/firestore-bigquery-export/scripts/gen-schema-view/minimist-1.2.6
+[remote "github-desktop-dgilperez"]
+	url = https://github.com/dgilperez/extensions.git
+	fetch = +refs/heads/*:refs/remotes/github-desktop-dgilperez/*
+[branch "pr/915"]
+	remote = github-desktop-dgilperez
+	merge = refs/heads/sophie-next
+[branch "@invertase/update-sharp-dependency"]
+	remote = upstream
+	merge = refs/heads/@invertase/update-sharp-dependency
+[branch "@invertase/july-staging-release-2022"]
+	remote = github-desktop-selcukhaltas
+	merge = refs/heads/@invertase/july-staging-release-2022
+[branch "@invertase/add-email-personalisation"]
+	remote = github-desktop-CommanderRoot
+	merge = refs/heads/@invertase/add-email-personalisation
+[branch "@invertase/update-pricing-documentation"]
+	remote = upstream
+	merge = refs/heads/@invertase/update-pricing-documentation
+[branch "pr/1141"]
+	remote = github-desktop-yamankatby
+	merge = refs/heads/resize-failed-directory
+[branch "@invertase/require-default-bq-projectid"]
+	remote = upstream
+	merge = refs/heads/@invertase/require-default-bq-projectid
